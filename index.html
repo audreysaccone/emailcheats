@@ -43,36 +43,45 @@
 
 <p>So, a basic table looks like this:</p>
           
-<p data-height="268" data-theme-id="0" data-slug-hash="IcKan" data-default-tab="result" class='codepen'>See the Pen <a href='http://codepen.io/audreysaccone/pen/IcKan/'>IcKan</a> by Audrey Saccone (<a href='http://codepen.io/audreysaccone'>@audreysaccone</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
+<p data-height="150" data-theme-id="0" data-slug-hash="IcKan" data-default-tab="result" class='codepen'>See the Pen <a href='http://codepen.io/audreysaccone/pen/IcKan/'>IcKan</a> by Audrey Saccone (<a href='http://codepen.io/audreysaccone'>@audreysaccone</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
 <script async src="//codepen.io/assets/embed/ei.js"></script>
 
-          <script src="https://gist.github.com/audreysaccone/0a58e9daaed59f12bd8e.js"></script>
-          
           <p> Except that we might notice that is looks like normal text! So, we need to add some CSS styling.</p>
           
-        <p data-height="268" data-theme-id="0" data-slug-hash="DxIKL" data-default-tab="result" class='codepen'>See the Pen <a href='http://codepen.io/audreysaccone/pen/DxIKL/'>DxIKL</a> by Audrey Saccone (<a href='http://codepen.io/audreysaccone'>@audreysaccone</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
+        <p data-height="150" data-theme-id="0" data-slug-hash="DxIKL" data-default-tab="result" class='codepen'>See the Pen <a href='http://codepen.io/audreysaccone/pen/DxIKL/'>DxIKL</a> by Audrey Saccone (<a href='http://codepen.io/audreysaccone'>@audreysaccone</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
 <script async src="//codepen.io/assets/embed/ei.js"></script>
           
+        <p>Great &mdash; now it's starting to look like a real table. We also have a few things we need to add to <code>table</code> to make it look a bit nicer, namely <code>cellpadding="0"</code>, <code>cellspacing="0"</code>, <code>margin="0"</code> and <code>border="0"</code>. We also might want to make our cells the same size, which we can do by putting <code>width="50%"</code> in each <code>td</code>. You can also use more specific definitions, such as <code>width="100"</code>. Default measurement will be in pixels.</p>
+          <p><strong>Pro tip:</strong> You don't have to define the width in each row; subsequent rows will inherit the width defined in the first row.</p>
           
-<h3>
-<a name="designer-templates" class="anchor" href="#images"><span class="octicon octicon-link"></span></a>Designer Templates</h3>
+              <p data-height="150" data-theme-id="0" data-slug-hash="taEFu" data-default-tab="result" class='codepen'>See the Pen <a href='http://codepen.io/audreysaccone/pen/taEFu/'>taEFu</a> by Audrey Saccone (<a href='http://codepen.io/audreysaccone'>@audreysaccone</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
+<script async src="//codepen.io/assets/embed/ei.js"></script>
+              
+    <p>Let's add a little bit more styling! Remember: if you need more information on CSS styling and what does what, you can check out this <a href="https://drive.google.com/file/d/0B3k4N6zCAZnqN1I3SmVQT1FFb1E/edit?usp=sharing" target="_blank">cheat sheet</a>.
+        <ul>
+            <li>Enclose all CSS styling with <code>style=""</code></li>
+            <li>Change your font in the cell to bold by using <code>font-weight:bold;</code></li>
+            <li>Change your font in the cell to italics by using <code>font-style:italic;</code></li>
+            <li>Define your font and font size when writing tables in e-mails with <code>font-family:Arial;</code> and <code>font-size:12px;</code> (or whatever font family and size you are using!). You only have to do this in the <code>table</code> element and the rest of the table will inherit the property.</li>
+            <li>We can also add some padding, which adds white space (or whatever your background color is) to the inside of your cell.</li>
+            <li>A full string of CSS styles may look like <code>style="font-weight:bold;font-family:Arial;font-size:12px;padding:10px;"</code></li>
+        </ul>
+          
+          <p>Any CSS in a <code>td</code> will override the CSS in the <code>tr</code> or <code>table</code> elements, which you'll see in the next example.</p>
+          <p>Ok, now let's see what this might look like in a table.</p>
 
-<p>We've crafted some handsome templates for you to use. Go ahead and continue to layouts to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved if it remained markdown format.</p>
-
-<h3>
-<a name="rather-drive-stick" class="anchor" href="#rather-drive-stick"><span class="octicon octicon-link"></span></a>Rather Drive Stick?</h3>
-
-<p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator written by our own Tom Preston-Werner. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
-
-<h3>
-<a name="authors-and-contributors" class="anchor" href="#authors-and-contributors"><span class="octicon octicon-link"></span></a>Authors and Contributors</h3>
-
-<p>You can <a href="https://github.com/blog/821" class="user-mention">@mention</a> a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor's GitHub Profile. For example: In 2007, Chris Wanstrath (<a href="https://github.com/defunkt" class="user-mention">@defunkt</a>), PJ Hyett (<a href="https://github.com/pjhyett" class="user-mention">@pjhyett</a>), and Tom Preston-Werner (<a href="https://github.com/mojombo" class="user-mention">@mojombo</a>) founded GitHub.</p>
-
-<h3>
-<a name="support-or-contact" class="anchor" href="#support-or-contact"><span class="octicon octicon-link"></span></a>Support or Contact</h3>
-
-<p>Having trouble with Pages? Check out the documentation at <a href="http://help.github.com/pages">http://help.github.com/pages</a> or contact <a href="mailto:support@github.com">support@github.com</a> and we’ll help you sort it out.</p>
+          <p data-height="150" data-theme-id="0" data-slug-hash="pybwn" data-default-tab="result" class='codepen'>See the Pen <a href='http://codepen.io/audreysaccone/pen/pybwn/'>pybwn</a> by Audrey Saccone (<a href='http://codepen.io/audreysaccone'>@audreysaccone</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
+<script async src="//codepen.io/assets/embed/ei.js"></script>
+          
+          <p>A few more things before you start making your own table. We also might want to add a table with cells that cross over rows and columns. This is a bit more advanced, but not too hard. To make a cell two rows high, we have to add <code>rowspan="2"</code>. To make a cell two columns wide, we have to add <code>colspan="2"</code>. Make sense?</p>
+          <p>Both of these elements can be combined to make a double tall + wide cell (or more; your value doesn't always have to be 2). <strong>But remember:</strong> each row and column have to add up across the whole table, otherwise your table will become confused. Each cell in the example below has a unique value in the cell so that you can match the Result and the HTML easily.</p>
+          
+          <p data-height="268" data-theme-id="0" data-slug-hash="LdBfb" data-default-tab="result" class='codepen'>See the Pen <a href='http://codepen.io/audreysaccone/pen/LdBfb/'>LdBfb</a> by Audrey Saccone (<a href='http://codepen.io/audreysaccone'>@audreysaccone</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
+<script async src="//codepen.io/assets/embed/ei.js"></script>
+          
+          <p><strong>Note:</strong> All of the tables above have a border. I usually dont' use borders in tables in e-mails; they're pretty unnecessary. But, if you need them, you now know have to do them! Both borders and padding can be defined as a whole (by using just <code>style="border:1px solid black"</code> or <code>style="padding:10px;"</code>) or by individual sides. You do this by appending the side to <code>border</code> or <code>padding</code> as such: <code>style="border-left:2px solid red;border-right:1px solid green;padding:10px;padding-right:15px;"</code>. A side-specific property willl override an all-sides property, so in the previous example all sides have padding of 10px except for the right, which has padding of 15px.</p>
+          <p>Now go forth and make some tables!</p>
+          
       </section>
       <footer>
         <p>This project is maintained by <a href="https://github.com/audreysaccone">audreysaccone</a></p>
